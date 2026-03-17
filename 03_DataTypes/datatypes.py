@@ -41,6 +41,10 @@ print(name.count("a"))
 print(name.startswith("Vikas"))
 #13. endswith(): The endswith() function is used to check if a string ends with a specified substring.
 print(name.endswith("M"))
+#14. index(): The index() function is used to find the index of the first occurrence of a substring in a string. 
+# It raises an error if the substring is not found.
+print(name.index("Gowda"))
+
 
 
 
