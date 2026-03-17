@@ -1,0 +1,8 @@
+num1=float(input("enter first number: "))
+num2=float(input("enter the second number: "))
+print("the sum od two numbers is :", num1+num2)
+print("the difference of two numbers is :", num1-num2)
+print("the product of two numbers is :", num1*num2)
+print("the quotient of two numbers is :", num1/num2)
+print("the remainder of two numbers is :", num1%num2)
+print("the power of two numbers is :", num1**num2)
