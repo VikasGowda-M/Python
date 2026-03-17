@@ -27,3 +27,23 @@ print("Your height is ", height + 0.5)
 #Example 2:
 is_student = bool(input("Are you a student? (True/False): "))
 print("Is student: ", is_student)
+
+#implicit type conversion:
+#In implicit type conversion, Python automatically converts one data type to another data type without the need for explicit conversion.
+#Example:
+num1 = 10
+num2 = 5.5
+result = num1 + num2
+print("The result is ", result)
+#In the above code, Python automatically converts the integer num1 to a float before performing the addition operation with num2, 
+# which is a float. The result is a float value of 15.5.
+
+
+#explicit type conversion:
+#In explicit type conversion, we manually convert one data type to another data type using built-in functions like int(), float(), str(), etc.
+#Example:
+num1 = 10
+num2 = 5.5
+result = num1 + int(num2)
+print("The result is ", result)
+#In the above code, we are explicitly converting the float num2 to an integer using the int() function before performing the addition operation with num1.
