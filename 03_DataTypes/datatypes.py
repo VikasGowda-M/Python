@@ -44,6 +44,12 @@ print(name.endswith("M"))
 #14. index(): The index() function is used to find the index of the first occurrence of a substring in a string. 
 # It raises an error if the substring is not found.
 print(name.index("Gowda"))
+#15.cocatination: The + operator is used to concatenate two strings.
+str1 = "Hello"
+str2 = "World"
+new_str = str1 + " " + str2
+print(new_str)
+print(len(new_str))
 
 
 
