@@ -7,7 +7,3 @@ print(list)
 
 #we cant sort tuples because they are immutable.
 
-list = [4,12,1,3,2]
-list.sort()
-print("the maximum number is:",list[-1])#Output: the maximum number is: 12
-print("the minimum number is:",list[0])#Output: the minimum number is: 1
