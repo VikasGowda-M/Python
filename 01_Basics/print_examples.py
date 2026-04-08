@@ -1,4 +1,4 @@
-#python runs code from top to bottom and executes each line one by one. 
+#Python runs code from top to bottom and executes each line one by one. 
 
 
 print('A')
